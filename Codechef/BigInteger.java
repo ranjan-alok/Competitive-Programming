@@ -12,10 +12,6 @@ public class IntegerOperations {
         }
     }
 
-    /**
-     * @param n the number
-     * @return n!
-     */
     private static BigInteger factorial(int n) {
         BigInteger result = BigInteger.ONE;
         for (int i = 2; i <= n; i++) {
